@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    *  {
+        box-sizing: border-box;
+    }
+    .topo{
+        background-color: rgb(255, 255, 255);
+        height: 54px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1px #DBDBDB solid;
+        position: fixed;
+        top: 0px;
+        border-bottom: 1px solid #DBDBDB;
+    
+    }
+    .botao{
+        
+        margin-left: 10px;
+    }
+    .pagina {
+        height: 100%;
+        width: 100%;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteudo {
+        display: flex;
+        width: 935px;
+        height: 100%;
+        background-color: #fafafa;
+        margin-top: 88px;
+        justify-content: space-between;
+    }
+    .posts {
+        width: 614px;
+        height: 100%;
+        background-color: #fafafa;
+    }
+    .sugestao {
+        width: 293px;
+        height: 445px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .barra-inferior{
+        background-color: rgb(255, 255, 255);
+        height: 34px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .conteudo-topo {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        align-items: center;
+    }
+    .perfil {
+        display: flex;
+        
+    }
+     img {
+        height: 56px;
+        border-radius: 100%;
+
+    }
+    .perfis{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    div.perfis h1{
+        font-size: 12px;
+        
+    }
+
+    div.perfil h2{
+      font-weight: 300;
+      font-family: "Roboto", sans-serif;
+    }
+   
+   h1, h2, h3, h4, h5, h6{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+   }
+   .perfil1 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    .seguir{
+        font-size: 12px;
+        font-weight: 400;
+        color: rgb(32, 166, 255);
+    }
+
+   div.perfil1 img{
+    height: 32px;
+   }
+    .nome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 17px;
+
+    }
+    .caracteristica {
+        display: flex;
+        align-items: center;
+
+    }
+    div.info h1{
+        font-size: 11;
+        font-weight: 400;
+        color: #C7C7C7;
+        margin-top: 15px;
+    }
+
+    @media (max-width:935px){
+        .sugestao {
+            display: none;
+            
+            
+        }
+        .conteudo {
+            width: 100vw;
+            justify-content: center;
+        }
+        
+    }
+    @media (max-width:614px) {
+        .barra-inferior
+        {   position: fixed;
+            bottom: 0;
+            display: flex;
+        }
+        .botoes {
+
+            display: none;
+        }
+        .conteudo {
+            margin-top: 34px;
+            width: 100%;
+            justify-content: center;
+        }
+        .storys {
+            max-width: 100vw;
+            background-color: #fafafa;
+        }
+    
+        .conteudo-topo {
+            
+            justify-content: center;
+        }
+        
+    }
+    
